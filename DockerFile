@@ -10,5 +10,5 @@ COPY target/student-management.jar /app/student-management.jar
 # Expose port (change if your app uses a different one)
 EXPOSE 8089
 
-# Run the application
+# Run the application very well
 ENTRYPOINT ["java", "-jar", "/app/student-management.jar"]
